@@ -28,6 +28,7 @@ export interface User extends Document {
   message: Message[];
 }
 
+
 const UserSchema: Schema<User> = new Schema({
   username: {
     type: String,
