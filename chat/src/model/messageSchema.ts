@@ -1,4 +1,4 @@
-import { Content } from "next/font/google"
+import { Content } from "next/font/google";
 import {z} from "zod"
 
 export const messageSchema = z.object({
